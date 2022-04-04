@@ -1,0 +1,54 @@
+body{
+    background: rgb(117, 177, 117);
+}
+
+#title{
+    color: rgb(21, 72, 149);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+#score{
+    color: black;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.grid{
+    position: absolute;
+    width: 680px;
+    height: 300px;
+    border: solid black 3px;
+    text-align: center;
+    background-color: rgb(100, 60, 60);
+    border-radius: 15px;
+    right: 28%;
+    top: 25%;
+}
+
+.block{
+    width: 100px;
+    height: 20px;
+    background-color: aquamarine;
+    position: absolute;
+    
+}
+
+.user{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(59, 132, 192);
+    position: absolute;
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(225, 62, 62);
+}
+
